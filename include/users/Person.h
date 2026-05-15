@@ -6,7 +6,7 @@ class Person{
         int id;
         string name;
         //static count for admin to count the total user
-        static int count = 0;
+        static int count;//initialized in cpp file
     public:
         //A pure virtual function so that my class is Abstarct Base Class(ABC);
         virtual void display() = 0;
